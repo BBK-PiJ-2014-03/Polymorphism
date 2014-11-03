@@ -59,6 +59,10 @@ public class ListNode<T>  {
     public ListNode<T> getPrev() {
         return prev;
     }
+    public String toString() {
+        return (String) element;
+    }
+    
 }
         
         
